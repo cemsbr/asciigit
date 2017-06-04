@@ -8,6 +8,8 @@ ASCII-only ZSH prompt theme (using oh-my-zsh). For git users who are not fan of 
   - Status (diverged, added, untracked, etc...).
 - Colors known to work well with solarized light (probably with other schemes, too).
 
+<img src="https://github.com/cemsbr/asciigit/blob/screenshot/screenshot.png" width="606" height="468">
+
 ## Install
 Add to your ~/.zshrc:
 ```bash
