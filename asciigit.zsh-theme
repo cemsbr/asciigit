@@ -32,7 +32,7 @@ function git_or_pwd() {
       fi
 
       url="$(git remote get-url --push $remote \
-        | perl -pe 's;^(git@|https?://)?(.*?)(\.git)?$/;\2' \
+        | perl -pe 's;^(git@|git://|https?://)?(.*?)(\.git)?$/;\2' \
 	| sed -e 's|:|/|')" || \
         url='git url not found'  # This has never happened yet
       echo "%{$fg[blue]%}$url%{$reset_color%}$relative_dir|$branch_prompt%{%F{14}%}$(git_remote_status)$(git_prompt_status)%{$reset_color%}"
