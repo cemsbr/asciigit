@@ -10,6 +10,8 @@ ASCII-only ZSH prompt theme (using oh-my-zsh). For git users who are not fan of 
 
 <img src="https://github.com/cemsbr/asciigit/blob/screenshot/screenshot.png" width="606" height="468">
 
+Screenshot: rxvt-unicode terminal with solarized light theme and Iosevka Term font.
+
 ## Install
 Add to your ~/.zshrc:
 ```bash
